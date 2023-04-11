@@ -468,7 +468,8 @@ a
     width: 1500px;
     height: 70px;
     top: 10px;
-    left: 100px;;
+    left: 100px;
+    margin-left: 1290px;
 }
 .produtos
 {
