@@ -29,29 +29,6 @@ body
     left: 90px; 
     width: 180px;
 }
-.D1
-{
-    width: 100%;
-    height: 32vh;
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    justify-items: center;
-     border-radius: 9px;
-     top:10px;
-}
-.D2
-{
-    
-    position: relative;
-    top: 0px;
-    left:0px; 
-    width: 100%;
-    height: 30vh;
-}
 .D3
 {
     /*background-color: brown;*/
@@ -121,7 +98,7 @@ body
 {
     /*background-color: purple;*/
     position: absolute;
-    width: 8%;
+    width: 12%;
     height: 8vh;
     left: 900px;
     top:15px;
@@ -168,42 +145,20 @@ body
     cursor: pointer;
     border-radius: 40px;
 }
-.D10
-{
-    
-    position: relative;
-    top: 0px;
-    left:0px; 
-    width: 100%;
-    height: 30vh;
-    flex-direction: column;
-    display: flex;
-    align-content: center;
-    align-items: center;
-}
-.D11
-{
-   
-    width: 100%;
-    top: 230px;
-    height: 15px;
-    background-color: rgb(44, 119, 119);
-    position: fixed;
-}
 .D12
 {
-   
-    width: 80%;
-    height: 82px;
+   margin-top: 10px;
+    width: 100%;
+    height: 15vh;
     background-color: rgb(44, 119, 119);
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     align-content: center;
     justify-items: center;
-     border-radius: 9px;
-     top:0px;
+    border-radius: 9px;
+    top:0px;
     
 }
 
@@ -277,7 +232,7 @@ body
     justify-content: center;
     justify-items: center;
 }
-.pagamento2
+.pagtitulo
 {
     width: 25%;
     height: 10vh;
@@ -287,8 +242,10 @@ body
     justify-content: center;
     justify-items: center;
     font-size: 25px;
+    animation: flipInY 5s;
+    
 }
-.pagamento3
+.pagamento2
 {
     width: 100%;
     height: 58vh;
@@ -298,12 +255,13 @@ body
     align-items: center;
     justify-content: space-around;
     justify-items: center;
+    animation: fadeInLeft 2s;
 }
-.pagamento4
+.pagamento3
 {
-    background: rgba(239, 244, 246, 0.7);
-    width: 50%;
-    height: 50vh;
+    background: rgba(245, 247, 248, 0.793);
+    width: 30%;
+    height: 40vh;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -311,10 +269,23 @@ body
     justify-content: center;
     justify-items: center;
 }
+.pagamento4
+{
+    background: rgba(245, 247, 248, 0.793);
+    width: 30%;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
 .pagamento5
 {
-    width: 30%;
-    height: 50vh;
+    background: rgba(32, 126, 133, 0.709);
+    width: 20%;
+    height: 30vh;
     display: flex;
     flex-direction: row;
     align-content: center;
