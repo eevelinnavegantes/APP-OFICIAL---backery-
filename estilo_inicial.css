@@ -9,10 +9,6 @@ body
     width: 99%;
     height: 99vh;
 
-   
-    
-   
-
 }
 .principal
 {
@@ -273,22 +269,6 @@ body
     z-index: 10;
 
 }
-/* {
-    position: absolute;
-    top: 300px;
-    left:80px; 
-    background-color: black;
-    width: 500px;
-    height: 500px;
-}
-/*.imagemcoxinha
-{
-    position: absolute;
-    top: 300px;
-    left:80px;
-    width: 1000px;
-    height: 500px;
-}*/
 
 a
 {
@@ -305,8 +285,6 @@ a
     /*background-color: white;*/
     margin-left: 0px;
     margin-top: 120px;
-    
-    
 
 }
 .linha2
@@ -341,7 +319,6 @@ a
     
 }
   
-
 .emoji
 {
     width: 300px;
