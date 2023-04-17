@@ -318,7 +318,8 @@ a
     justify-items: center;
     align-content: center;
     align-items: center;
-    animation: tada 8s;
+    animation: tada 8s infinite linear;;
+    
 }
 .fora
 {
@@ -385,7 +386,6 @@ a
     overflow: hidden;
 
 }
-
 .preco
 {
     width: 355px;

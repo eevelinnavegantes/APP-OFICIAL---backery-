@@ -86,6 +86,8 @@ body
         .logo
         {
             top: 40px;
+            width: 50%;
+            height: 50vh;
         }
         .fieldset1
         {
