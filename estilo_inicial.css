@@ -12,10 +12,6 @@ body
 }
 .principal
 {
-
-    border-style: solid;
-    border-color: brown;
-    border-width: 5px;
     width: 100%;
     height: 99vh;
     display: flex;
@@ -70,6 +66,7 @@ body
     width: 60px;
     height: 60px;
     top:9px;
+    left: 520px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -84,7 +81,7 @@ body
     position: absolute;
     width: 60px;
     height: 60px;
-    left: 500px;
+    left: 300px;
     top:9px;
     display: flex;
     flex-direction: row;
@@ -100,7 +97,7 @@ body
     position: absolute;
     width: 60px;
     height: 60px;
-    left: 630px;
+    left: 410px;
     top:9px;
     display: flex;
     flex-direction: row;
@@ -153,6 +150,7 @@ body
     width: 60px;
     height: 60px;
     left: 1370px;
+    top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -213,39 +211,33 @@ body
 
 .D3:hover
 {
-    background-color: black;
+    background-image: radial-gradient(rgb(220, 34, 62), rgba(44, 119, 119, 0.617) );
 
 }
 .D4:hover
 {
-    background-color: black;
+    background-image: radial-gradient(rgb(220, 34, 62), rgba(44, 119, 119, 0.617) );
 
 }
 .D5:hover
 {
-    background-color: black;
-
+    background-image: radial-gradient(rgb(220, 34, 62), rgba(44, 119, 119, 0.617) );
 }
 .D6:hover
 {
-    background-color: black;
-
+    background-image: radial-gradient(rgb(220, 34, 62), rgba(44, 119, 119, 0.617) );
 }
 .D8:hover
 {
-    background-color: black; 
+    background-image: radial-gradient(rgb(220, 34, 62), rgba(44, 119, 119, 0.617) );
 
 }
 .D9:hover
 {
-    background-color: black;
+    background-image: radial-gradient(rgb(220, 34, 62), rgba(44, 119, 119, 0.617) );
 
 }
-.D2:hover
-{
-    border-color: black;
 
-}
 .D13
 {
     position: relative;
@@ -269,6 +261,23 @@ body
     z-index: 10;
 
 }
+/* {
+    position: absolute;
+    top: 300px;
+    left:80px; 
+    background-color: black;
+    width: 500px;
+    height: 500px;
+}
+/*.imagemcoxinha
+{
+    position: absolute;
+    top: 300px;
+    left:80px;
+    width: 1000px;
+    height: 500px;
+
+}*/
 
 a
 {
@@ -284,7 +293,7 @@ a
     flex-direction:row;
     /*background-color: white;*/
     margin-left: 0px;
-    margin-top: 120px;
+    margin-top: 120px;  
 
 }
 .linha2
@@ -297,7 +306,7 @@ a
     justify-content: space-around;
     justify-items: center;
     align-content: center;
-    align-items: center; 
+    align-items: center;
     font-size: 25px;
     margin-top: -30px;
 }
@@ -315,10 +324,10 @@ a
 {
     font-family: 'Cookie';font-size: 22px;
     width: 10px;
-    height: 10px;
-    
+    height: 10px;   
 }
   
+
 .emoji
 {
     width: 300px;
@@ -330,10 +339,7 @@ a
     justify-items: center;
     align-content: center;
     align-items: center; 
-    flex-direction: row;
- 
-
-    
+    flex-direction: row;   
 
 }
 .todas
@@ -370,7 +376,6 @@ a
     width: 55%;
     display: flex;
     flex-direction:row;
-    
     margin-left: 10px;
     justify-items: center;
     align-content: center;
@@ -388,13 +393,12 @@ a
     background-color: rgba(0, 0, 0, 0.562);
     display: flex;
     justify-content: space-around;
-     justify-items: flex-end;
-     align-content: center;
-     align-items: center; 
-     flex-direction: column;
-     color:white;
-    
-     
+    justify-items: flex-end;
+    align-content: center;
+    align-items: center; 
+    flex-direction: column;
+    color:white;
+
    position: absolute;
    bottom: 0px;
 
@@ -417,17 +421,16 @@ a
 {
     font-family: 'Pinyon Script', cursive;font-size: 98px;
     width:1500px;
-    height: 20vh;
+    height: 500px;
     top: 100px
-
 }
 .logo
 {
- width: 65%;
+ width: 200px;
  z-index: 11;
  position:absolute;
- top:115px;
- left:-300px;
+ top:95px;
+ left:50px;
 }
 .central
 {

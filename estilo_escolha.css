@@ -27,7 +27,8 @@ body
     position: absolute;
     top: 130px;
     left: 70px; 
-    width: 190px;
+    width: 50%;
+    height: 50vh;
 }
 .D1
 {
