@@ -482,16 +482,18 @@ a
 }
 .pselecione
 {
-    width: 30%;
-    height: 60vh;
+    width: 40%;
+    height: 80vh;
+    margin-top: 150px;
     background-color: rgba(255, 255, 255, 0.808);
     justify-items: center;
     align-content: center;
     align-items: center; 
     flex-direction: column;
     display: flex;
-   
-   
+    border-color: rgb(25, 92, 92);
+    border-style: solid;
+    border-radius: 20px;
 }
 .pselecione2
 {
@@ -503,11 +505,13 @@ a
     margin-top: 20px;
     border-style: solid;
     border-width: 5px;
-    border-color: rgb(42, 131, 134);
-    width: 300px;
-    height: 310px;
-    border-radius: 20px;
+    border-color: transparent;
+    width: 85%;
+    height: 50vh;
+    border-radius: 45px;
     font-family: "Audiowide", sans-serif;
+    font-size: 20px;
+
 }  
 .fieldqtdd
 {
