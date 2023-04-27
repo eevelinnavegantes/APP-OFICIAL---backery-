@@ -6,13 +6,12 @@ body
     height: 100vh;
     background-image: linear-gradient(to bottom,rgb(34, 95, 93), rgb(42, 121, 118),silver);
     position: relative;
+    overflow: hidden;
 
 }
 
 .principal
 {
-    border-style: solid;
-    border-width: 5px;
     width: 99%;
     height: 99vh;
 }
@@ -32,10 +31,10 @@ body
 {
     border-radius: 75px;
     position: absolute;
-    top: 300px;
-    left: 680px; 
+    top: 310px;
+    left: 390px; 
     animation: zoomIn 1s;
-    width: 500px;
+    width: 800px;
 }
 
 .chocolate
