@@ -1,6 +1,5 @@
 body
 {
-    
     font-family: "Audiowide", sans-serif;
     background-image: url("fundo4.jpg");
     overflow: hidden;
@@ -8,7 +7,6 @@ body
     padding: 0%;
     width: 99%;
     height: 99vh;
-
 }
 .principal
 {
@@ -16,6 +14,10 @@ body
     height: 99vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
 }
 .D1
 {
@@ -172,8 +174,7 @@ body
 }
 .D12
 {
-   
-    width: 100%;
+    width: 110%;
     height: 82px;
     background-color: rgb(44, 119, 119);
     display: flex;
@@ -182,8 +183,8 @@ body
     align-items: center;
     align-content: center;
     justify-items: center;
-     border-radius: 9px;
-     top:0px;
+    border-radius: 9px;
+    margin-top:-50px;
 }
 
 .D3:hover
@@ -452,50 +453,50 @@ a
     left: 100px;
     margin-left: 1290px;
 }
-.produtos
+.produtosverde
 {
-    width: 100%;
-    height: 65vh;
+    background-color: rgb(39, 125, 125, 0.9);
+    width: 85%;
+    height: 75vh;
+    margin-top: 30px;
     justify-content: center;
     justify-items: center;
     align-content: center;
     align-items: center; 
     flex-direction: row;
     display: flex;
-    justify-content: space-around;
 }
-.pcoxinha
+.produtosbranco
 {
-    width: 20%;
-    height: 45vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 99%;
+    height: 73vh;
+    justify-content: center;
     justify-items: center;
     align-content: center;
     align-items: center; 
     flex-direction: column;
     display: flex;
-    
 }
-.pcoxinhaletras
+.traco
 {
-    font-size: 35px;
-    margin-top: 20px;
+    background-color: rgb(17, 71, 71);
+    width: 90%;
+    height: 1px;
+    margin-top: -10px; 
 }
-.texto
+.traco2
 {
-    width: 100%;
-    height: 20vh;
-    background-color: aqua;
-    justify-items: center;
-    justify-content: space-around;
-    align-content: center;
-    align-items: center; 
-    flex-direction: row;
-    display: flex;
+    background-color: rgb(17, 71, 71);
+    width: 90%;
+    height: 1px;
+    margin-top: 220px; 
 }
 .pselecione
 {
-    width: 40%;
-    height: 80vh;
+    width: 60%;
+    height: 52vh;
+    font-size: 15px;
     margin-top: 150px;
     background-color: rgba(255, 255, 255, 0.808);
     justify-items: center;
@@ -506,31 +507,6 @@ a
     border-color: rgb(25, 92, 92);
     border-style: solid;
     border-radius: 20px;
-}
-.pselecione2
-{
-    background-color: rgba(0, 0, 0, 0.339);
-    width: 50%;
-    height: 10vh;
-    justify-items: center;
-    align-content: center;
-    align-items: center; 
-    flex-direction: column;
-    display: flex;
-    font-family: "Freehand&family", sans-serif;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif 
-}
-.pselecione3
-{
-    width: 30%;
-    background-color: rgba(0, 0, 0, 0.276);
-    justify-items: center;
-    justify-content: space-around;
-    align-content: center;
-    align-items: center; 
-    display: flex;
-    font-family: "Freehand&family", sans-serif;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif 
 }
 .fieldcomidas
 {
@@ -562,14 +538,16 @@ a
 {
     width: 25%;
     height: 30vh;
-    background-color: rgba(248, 242, 242, 0.808);
+    background-color: rgba(255, 255, 255, 0.7);
     justify-items: center;
     justify-content: center;
     align-content: center;
     align-items: center; 
     display: flex;
     flex-direction: column;
-    
+    border-color: rgb(25, 92, 92);
+    border-style: solid;
+    border-radius: 20px;
 }
 .qtdd
 {
@@ -586,7 +564,7 @@ a
 .addcarrinho
 {
     background-color:rgba(48, 146, 150, 0.623); 
-    width: 40%;
+    width: 80%;
     height: 6vh;
     color: white;
     border-radius: 10px;

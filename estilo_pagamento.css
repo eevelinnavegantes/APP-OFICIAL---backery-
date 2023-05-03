@@ -419,7 +419,7 @@ a
     border-color: rgb(25, 92, 92);
     border-style: solid;
     border-radius: 20px;
-    font-size: 20px;
+    font-size: 18px;
 }
 .pagamento4
 {
@@ -453,7 +453,7 @@ a
     align-items: center;
     justify-content: center;
     justify-items: center;
-    animation: fadeInLeft 2s;
+    animation: fadeInLeft 2s forwards;
     margin-top: 12vh;
 }
 .certo
@@ -529,8 +529,10 @@ a
 }
 .preco
 {
-    width: 315px;
+    width: 285px;
     height: 70px;
+    margin-left: -13px;
+    margin-top: 15px;
     background-color: rgba(0, 0, 0, 0.562);
     display: flex;
     justify-content: space-around;

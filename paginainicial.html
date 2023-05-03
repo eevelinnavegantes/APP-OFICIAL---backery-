@@ -22,26 +22,30 @@
                  
                  <div class="D10">
                     <div class="D3">
+                        <div title="Ver Página Inicial" class="interior"></div>
                         <a href="paginainicial.html">
-                        <img title="Ver Página Inicial" src="casinha.png" width="120px" height="60px"> 
+                        <img  src="casinha.png" width="120px" height="60px"> 
                         </a> 
     
                     </div>
                      <div class="D4">
+                        <div title="Ver Localização" class="interior"></div>
                         <a href="Paginalocalização.html">
-                        <img title="Ver Localização" src="localização.png" width="40px" height="40px"> 
+                        <img  src="localização.png" width="40px" height="40px"> 
                         </a> 
                         
                      </div>
                     <div class="D5">
+                        <div title="Ver histórico" class="interior"></div>
                         <a href="paginahistorico.html">
-                        <img title="Ver histórico" src="lupa.png" width="35px" height="35px"> 
+                        <img  src="lupa.png" width="35px" height="35px"> 
                         </a> 
                         
                     </div>
                     <div class="D6">
+                        <div title="Ver Perfil" class="interior"></div>
                         <a href="paginaperfil.html">
-                        <img title="Ver Perfil"  src="perfil.png" width="70px" height="70px"> 
+                        <img   src="perfil.png" width="70px" height="70px"> 
                         </a> 
                         
                     </div>
@@ -49,11 +53,13 @@
                         MEU CARRINHO
                     </div>
                     <div class="D8">
+                        <div title="Ver Carrinho"  class="interior"></div>
                         <a href="paginacarrinho.html">
-                        <img  title="Ver Carrinho"src="carrinho.png" width="130px" height="80px"> 
+                        <img  src="carrinho.png" width="130px" height="80px"> 
                         </a>
                     </div>
                      <div class="D9">
+                        <div class="interior"></div>
                       <img src="trespontos.png" width="280px" height="190px">
                         
                 
@@ -65,7 +71,7 @@
                      
                     <div class="D11"></div>
                     <div class="D12"></div>
-                    <img class="logo" src="novalogo.png">
+                    <img class="logo" src="cupcake.png">
 
                 </div>
                  
@@ -83,6 +89,20 @@
                 </div>
             
             <div class="propaganda">
+                <div class="linha2">
+                    <b> OS MAIS PEDIDOS </b>
+                    <b> <span class="fora"> NÃO FIQUE DE FORA </span> </b>
+                    <div class="sininho1">
+                        <img src="SININHO.png" width="80%">
+                    </div>
+                    <div class="emoji">
+                        <b>GARANTA O SEU </b>
+                        <img src="EMOJI.png" width="50px">
+                   
+                    </div>
+                    
+                    </div>
+                </div> 
                 <div class="carrossel">
                     <div class="todas">
                         <div class="img_legenda">
@@ -132,47 +152,75 @@
 
                     </div>
 
-                   <div class="doce/salgados">
-                    <div class="central">
-                        <IMG SRC="EMOJI2.png" width="30PX">
-                    </div>
-                    <div  title="Ir Para Página Salgados" class="op1">
-                        <a href="paginasalgados.html">
-                            SALGADOS
-                        </a>
-                        
-                    </div>
-                    <div  title="Ir Para Página Doces" class="op2">
-                        <a href="paginadoces.html">
-                            DOCES
-                        </a>
-                        
-                    </div>
-
-                   </div> 
-                </div>
-               
-                    
-                <div class="linha2">
-                    <b> OS MAIS PEDIDOS </b>
-                    <b> <span class="fora"> NÃO FIQUE DE FORA </span> </b>
-                    <div class="sininho1">
-                        <img src="sino.png" width="80%">
-                    </div>
-                    <div class="emoji">
-                        <b>GARANTA O SEU </b>
-                        <img src="EMOJI.png" width="50px">
-                   
-                    </div>
-                </div>
-
-            
+        
             </div>
         
+            <div class="notificacao">
+                
+                <div onclick="animadoenvelope();" class="botaoenvelope" id="botaoenvelope">
+                    <img class= "envelope" src="envelope.png" width="30px">  
+                </div>
+                <div class="botaoestrela" id="botaoestrela">
+                    <img class="estrela" src="estrela.png"width="30px">
+                   
+                </div>
+                <div class="botaorelogio" id="botaorelogio">
+                    <img class="relogio" src="relogio.png" width="30px">
+                </div>
+                <div class="botaoredes" id="botaoredes" >
+                    <img class="insta" src="insta.png" width="30px">
+                </div>
+                <div onclick="animado();" class="botaomenu">
+                    <img class= "menu" src="menu.png" width="40px">
+                </div>
+
+                <div class="mensagem" id="mensagem">
+
+                </div>
         </div>
+        <div class="faleconosco"></div>
     </div>
 </body>
 <script>
+    clicks=0
+    function animado()
+    {
+        mensagem.innerHTML="menuaberto"
+        clicks=clicks+1
+        if (clicks==1)
+        {
+            botaoenvelope.classList.remove("envelope2_recolher")
+            botaoestrela.classList.remove("estrela2_recolher")
+            botaorelogio.classList.remove("relogio2_recolher")
+            botaoredes.classList.remove("redes2_recolher")
+
+            botaoenvelope.classList.add("envelope2")
+            botaoestrela.classList.add("estrela2")
+            botaorelogio.classList.add("relogio2")
+            botaoredes.classList.add("redes2")
+        
+        }
+        else 
+        {
+            clicks=0
+            botaoenvelope.classList.remove("envelope2")
+            botaoestrela.classList.remove("estrela2")
+            botaorelogio.classList.remove("relogio2")
+            botaoredes.classList.remove("redes2")
+
+            botaoenvelope.classList.add("envelope2_recolher")
+            botaoestrela.classList.add("estrela2_recolher")
+            botaorelogio.classList.add("relogio2_recolher")
+            botaoredes.classList.add("redes2_recolher")
+        }
+
+        
+
+    }
+    function animadoenvelope()
+    {
+        mensagem.innerHTML="envelope"
+    }
 
     
 </script>

@@ -9,18 +9,25 @@ body
     width: 99%;
     height: 99vh;
 
+   
+    
+   
+
 }
 .principal
 {
+
+  
     width: 100%;
     height: 99vh;
     display: flex;
     flex-direction: column;
+  
 }
 
 .D1
 {
-    width: 100%;
+    width: 120%;
     height: 32vh;
     background-color: rgba(255, 255, 255, 0.633);
     display: flex;
@@ -41,6 +48,7 @@ body
     width: 100%;
     height: 30vh;
 }
+
 .D3
 {
     /*background-color: brown;*/
@@ -56,8 +64,43 @@ body
     align-content: center;
     cursor: pointer;
     border-radius: 60px;
+    overflow: hidden;
 
 }
+
+  .D3:hover .interior
+   {
+    
+    transition-duration: 1s;
+    left:0px;
+    animation-fill-mode: forwards;
+    animation: animacao 1s alternate-reverse;
+  }
+  
+
+  @keyframes animacao {
+    from {
+        left: 0px;
+    }
+    to {
+        left: -60px;
+    }
+    
+  }
+  
+  .interior
+  {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.495);
+    position: absolute;
+    top:0px;
+    left:-60px;
+
+
+  }
+  
+ 
 .D4
 {
     /*background-color: yellow;*/
@@ -74,7 +117,19 @@ body
     align-content: center;
     cursor: pointer;
     border-radius: 60px;
+    overflow: hidden;
 }
+.D4:hover .interior
+   {
+    
+    transition-duration: 1s;
+    left:0px;
+    animation-fill-mode: forwards;
+    animation: animacao 1s alternate-reverse;
+  }
+ 
+    
+  
 .D5
 {
     /*background-color: pink;*/
@@ -90,7 +145,16 @@ body
     align-content: center;
     cursor: pointer;
     border-radius: 60px;
+    overflow: hidden;
 }
+.D5:hover .interior
+   {
+    
+    transition-duration: 1s;
+    left:0px;
+    animation-fill-mode: forwards;
+    animation: animacao 1s alternate-reverse;
+  }
 .D6
 {
     /*background-color: purple;*/
@@ -106,7 +170,16 @@ body
     align-content: center;
     cursor: pointer;
     border-radius: 60px;
+    overflow: hidden;
 }
+.D6:hover .interior
+   {
+    
+    transition-duration: 1s;
+    left:0px;
+    animation-fill-mode: forwards;
+    animation: animacao 1s alternate-reverse;
+  }
 .D7
 {
     /*background-color: purple;*/
@@ -123,6 +196,7 @@ body
     cursor: pointer;
     color: white;
     margin-left: 5px;
+    overflow: hidden;
     
 }
 .D8
@@ -131,7 +205,7 @@ body
     position: absolute;
     width: 60px;
     height: 60px;
-    left: 1250px;
+    left: 1220px;
     top:9px;
     display: flex;
     flex-direction: row;
@@ -142,14 +216,23 @@ body
     border-radius: 60px;
     color:white;
     margin-left: 28px;
+    overflow: hidden;
 }
+.D8:hover .interior
+   {
+    
+    transition-duration: 1s;
+    left:0px;
+    animation-fill-mode: forwards;
+    animation: animacao 1s alternate-reverse;
+  }
 .D9
 {
     /*background-color: yellow;*/
     position: absolute;
     width: 60px;
     height: 60px;
-    left: 1370px;
+    left: 1350px;
     top: 10px;
     display: flex;
     flex-direction: row;
@@ -159,9 +242,18 @@ body
     justify-items: center;
     cursor: pointer;
     border-radius: 500px;
+    overflow: hidden;
     
     
 }
+.D9:hover .interior
+   {
+    
+    transition-duration: 1s;
+    left:0px;
+    animation-fill-mode: forwards;
+    animation: animacao 1s alternate-reverse;
+  }
 .D10
 {
     
@@ -178,20 +270,21 @@ body
 .D11
 {
    
-    width: 100%;
+    width:200%;
     top:80px;
     height: 15px;
     background-color: rgb(44, 119, 119);
     position: fixed;
     top:250px;
     z-index: 0;
+    margin-left:500px
    
     
 }
 .D12
 {
    
-    width: 80%;
+    width: 130%;
     height: 82px;
     background-color: rgb(44, 119, 119);
     display: flex;
@@ -202,41 +295,12 @@ body
     justify-items: center;
      border-radius: 9px;
      top:0px;
+     margin-left:660px
 
    
     
 }
 
-
-
-.D3:hover
-{
-    background-image: radial-gradient(rgb(220, 34, 62), rgba(44, 119, 119, 0.617) );
-
-}
-.D4:hover
-{
-    background-image: radial-gradient(rgb(220, 34, 62), rgba(44, 119, 119, 0.617) );
-
-}
-.D5:hover
-{
-    background-image: radial-gradient(rgb(220, 34, 62), rgba(44, 119, 119, 0.617) );
-}
-.D6:hover
-{
-    background-image: radial-gradient(rgb(220, 34, 62), rgba(44, 119, 119, 0.617) );
-}
-.D8:hover
-{
-    background-image: radial-gradient(rgb(220, 34, 62), rgba(44, 119, 119, 0.617) );
-
-}
-.D9:hover
-{
-    background-image: radial-gradient(rgb(220, 34, 62), rgba(44, 119, 119, 0.617) );
-
-}
 
 .D13
 {
@@ -276,7 +340,6 @@ body
     left:80px;
     width: 1000px;
     height: 500px;
-
 }*/
 
 a
@@ -293,39 +356,36 @@ a
     flex-direction:row;
     /*background-color: white;*/
     margin-left: 0px;
-    margin-top: 120px;  
+    margin-top: 120px;
+    
+    
 
 }
 .linha2
 {
-    height: 350px;
+    height: 250px;
     width: 25%;
     display: flex;
     flex-direction:column;
-    margin-left: 30px;
+    /*background-color: red;*/
+    margin-left: 0px;
     justify-content: space-around;
     justify-items: center;
     align-content: center;
-    align-items: center;
+    align-items: center; 
     font-size: 25px;
-    margin-top: -30px;
-}
-.sininho1
-{
-    height:25vh;
-    width: 100%;
-    justify-content: center;
-    justify-items: center;
-    align-content: center;
-    align-items: center;
-    animation: tada 8s infinite linear;;
+    margin-top: 20px;
+   
     
+
+  
 }
 .fora
 {
     font-family: 'Cookie';font-size: 22px;
     width: 10px;
-    height: 10px;   
+    height: 10px;
+    
 }
   
 
@@ -340,7 +400,10 @@ a
     justify-items: center;
     align-content: center;
     align-items: center; 
-    flex-direction: row;   
+    flex-direction: row;
+ 
+
+    
 
 }
 .todas
@@ -368,24 +431,27 @@ a
     align-items: center;
     align-content: center;
     margin-left: 50px;
-    background-color: rgba(50, 102, 94, 0.589);
+    
     
 }
 .carrossel
 {
-    height: 500px;
-    width: 55%;
+    height: 400px;
+    width: 45%;
     display: flex;
     flex-direction:row;
-    margin-left: 10px;
+    z-index: 1;
+    
+   
     justify-items: center;
     align-content: center;
     align-items: center; 
-    margin-top:-100px ;
-    margin-left: 300px;
+    margin-top:-450px ;
+    margin-left:400px;
     overflow: hidden;
 
 }
+
 .preco
 {
     width: 355px;
@@ -393,12 +459,13 @@ a
     background-color: rgba(0, 0, 0, 0.562);
     display: flex;
     justify-content: space-around;
-    justify-items: flex-end;
-    align-content: center;
-    align-items: center; 
-    flex-direction: column;
-    color:white;
-
+     justify-items: flex-end;
+     align-content: center;
+     align-items: center; 
+     flex-direction: column;
+     color:white;
+    
+     
    position: absolute;
    bottom: 0px;
 
@@ -422,7 +489,14 @@ a
     font-family: 'Pinyon Script', cursive;font-size: 98px;
     width:1500px;
     height: 500px;
-    top: 100px
+    top: 100px;
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    
+
+
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
 }
 .logo
 {
@@ -432,7 +506,7 @@ a
  top:95px;
  left:50px;
 }
-.central
+/*.central
 {
     cursor: pointer;
     position: absolute;
@@ -453,12 +527,12 @@ a
 .op1
 {
     position: absolute;
-    width: 50px; /*140*/
+    width: 50px; 
     height: 50px;
     border-radius: 25px;
     background-color: rgb(47, 112, 112);
-    top:505px;/*450*/
-    left: 35px;/*125*/
+    top:505px;
+    left: 35px;
     font-size: 20px;
     display: flex;
     flex-direction: row;
@@ -474,12 +548,12 @@ a
 .op2
 {
     position: absolute;
-    width: 50px; /*140*/
+    width: 50px; 
     height: 50px;
     border-radius: 25px;
     background-color: rgb(47, 112, 112);
-    top:505px;/*570*/
-    left:35px; /* 1280*/
+    top:505px;
+    left:35px; 
     font-size: 20px;
     display: flex;
     flex-direction: row;
@@ -491,7 +565,6 @@ a
     animation: mostrar_op2 2s forwards;
     cursor: pointer;
 }
-
 @keyframes mostrar_op2
 {
     0%{top:505px;left:35px}
@@ -504,11 +577,252 @@ a
 }
 .op1:hover
 {
-    background-color: black;
-
+    background-image:radial-gradient(rgba(255, 255, 255, 0.589),rgba(44, 119, 119, 0.617));
 }
 .op2:hover
 {
-    background-color: black;
+    background-image:radial-gradient(rgba(255, 255, 255, 0.589),rgba(44, 119, 119, 0.617));
+}*/
+.sininho1
+{
+    height:20vh;
+    width: 80%;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    animation: tada 8s infinite ;
+}
+.notificacao
+{
+    /*background-color: yellow;*/
+    width: 300px;
+    height: 70px;
+    margin-left: 1250px;
+    margin-top:-50px;
+    position: relative;
+}
+.botaomenu
+{
+    width: 60px;
+    height: 60px;
+    background-color:white;
+    border-radius: 40px;
+    margin-left:250px;
+    top: 0px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    z-index: 10;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+   
+}
 
+
+.botaomenu:hover
+{
+    background-color: rgb(44, 119, 119) ;
+}
+.botaoenvelope
+{
+    width: 60px;
+    height: 60px;
+    background-color:white;
+    border-color:black;
+    border-radius: 40px;
+    top: 0px;
+    margin-left:250px;
+    border-style: solid;
+    border-width: 2px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+   
+}
+.envelope2
+{
+    animation: mostrar_botaoenvelope 2s forwards;
+}
+@keyframes mostrar_botaoenvelope
+{
+    0%{ margin-left:250px;}
+    100%{ margin-left:170px}
+}
+.envelope2_recolher
+{
+    animation: recolher_botaoenvelope 2s forwards; 
+    
+}
+@keyframes recolher_botaoenvelope
+{
+    0%{margin-left:170px;}
+    100%{margin-left:250px}
+}
+
+.botaoenvelope:hover
+{
+    background-color: rgb(44, 119, 119) ;
+}
+.botaoestrela
+{
+    width: 60px;
+    height: 60px;
+    background-color:white;
+    border-radius: 40px;
+    top: 0px;
+    margin-left:250px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+   
+}
+.estrela2
+{
+    animation: mostrar_botaoestrela 2s forwards; 
+}
+@keyframes mostrar_botaoestrela
+{
+    0%{ margin-left:250px;}
+    100%{margin-left:90px}
+}
+.estrela2_recolher
+{
+    animation: recolher_botaoestrela 2s forwards; 
+    
+}
+@keyframes recolher_botaoestrela
+{
+    0%{margin-left:90px;}
+    100%{margin-left:250px}
+}
+
+.botaoestrela:hover
+{
+    background-color: rgb(44, 119, 119) ;
+}
+.botaorelogio
+{
+    width: 60px;
+    height: 60px;
+    background-color:white;
+    border-radius: 40px;
+    top: 0px;
+    margin-left:250px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+   
+}
+.relogio2
+{
+    animation: mostrar_botaorelogio 2s forwards; 
+}
+@keyframes mostrar_botaorelogio
+{
+    0%{ margin-left:250px;}
+    100%{ margin-left:10px}
+}
+.relogio2_recolher
+{
+    animation: recolher_botaorelogio 2s forwards; 
+    
+}
+@keyframes recolher_botaorelogio
+{
+    0%{margin-left:10px;}
+    100%{margin-left:250px}
+}
+
+.botaorelogio:hover
+{
+    background-color: rgb(44, 119, 119) ;
+}
+.botaoredes
+{
+    width: 60px;
+    height: 60px;
+    background-color:white;
+    border-radius: 40px;
+    top: 0px;
+    margin-left:250px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+   
+}
+.redes2
+{
+    animation: mostrar_botaoredes 2s forwards; 
+    
+}
+@keyframes mostrar_botaoredes
+{
+    0%{margin-left:250px;}
+    100%{margin-left:-70px}
+}
+.redes2_recolher
+{
+    animation: recolher_botaoredes 2s forwards; 
+    
+}
+@keyframes recolher_botaoredes
+{
+    0%{margin-left:-70px;}
+    100%{margin-left:250px}
+}
+
+.botaoredes:hover
+{
+    background-color: rgb(44, 119, 119) ;
+}
+.mensagem
+{
+    width: 100px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    top:50px;
+    left:-300px;
+    color:white;
+
+}
+.faleconosco
+{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    top:280px;
+    left:1200px;
+    position: absolute;
 }
