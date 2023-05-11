@@ -8,21 +8,13 @@ body
     padding: 0%;
     width: 99%;
     height: 99vh;
-
-   
-    
-   
-
 }
 .principal
 {
-
-  
     width: 100%;
     height: 99vh;
     display: flex;
-    flex-direction: column;
-  
+    flex-direction: column; 
 }
 
 .D1
@@ -36,12 +28,11 @@ body
     align-items: center;
     align-content: center;
     justify-items: center;
-     border-radius: 20px;
-     top:10px;
+    border-radius: 20px;
+    top:10px;
 }
 .D2
 {
-    
     position: relative;
     top: 0px;
     left:0px; 
@@ -65,7 +56,6 @@ body
     cursor: pointer;
     border-radius: 60px;
     overflow: hidden;
-
 }
 
   .D3:hover .interior
@@ -96,11 +86,8 @@ body
     position: absolute;
     top:0px;
     left:-60px;
-
-
   }
   
- 
 .D4
 {
     /*background-color: yellow;*/
@@ -128,7 +115,6 @@ body
     animation: animacao 1s alternate-reverse;
   }
  
-    
   
 .D5
 {

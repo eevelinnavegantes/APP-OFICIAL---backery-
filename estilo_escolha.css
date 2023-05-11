@@ -455,7 +455,7 @@ a
 }
 .produtosverde
 {
-    background-color: rgb(39, 125, 125, 0.9);
+    background-color: rgba(39, 125, 125, 0.76);
     width: 85%;
     height: 75vh;
     margin-top: 30px;
@@ -468,7 +468,7 @@ a
 }
 .produtosbranco
 {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: white;
     width: 99%;
     height: 73vh;
     justify-content: center;
@@ -483,14 +483,14 @@ a
     background-color: rgb(17, 71, 71);
     width: 90%;
     height: 1px;
-    margin-top: -10px; 
+    margin-top: 300px; 
 }
 .traco2
 {
     background-color: rgb(17, 71, 71);
     width: 90%;
     height: 1px;
-    margin-top: 220px; 
+    margin-top: 120px; 
 }
 .pselecione
 {
@@ -568,4 +568,11 @@ a
     height: 6vh;
     color: white;
     border-radius: 10px;
+}
+.coxinha
+{
+    margin-top: 150px;
+    margin-left: -990px;
+    background-color: aquamarine;
+
 }

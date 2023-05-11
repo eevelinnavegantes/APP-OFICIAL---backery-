@@ -11,6 +11,7 @@
     <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet'>
     <link rel="stylesheet" href="estilo_pagamento.css">
     <link href="https://fonts.googleapis.com/css2?family=Freehand&family=Pinyon+Script&display=swap" rel="stylesheet">
+    <script src="jquery-3.6.4.min.js"></script>
 </head>
 <body>
     <!DOCTYPE html>
@@ -147,9 +148,18 @@
                     <b>COXINHA</b>
                     <b>R$15,00</b>
                 </div>
+                <button id="comprar" onclick="Comprar();" class="confirmaPAG"><b><span id="confirm">CONFIRMAR</span></b></button>
             </div>
-          
         
            
 </body>
+<script>
+    function Comprar()
+    {
+        $("#comprar").animate({height:"20px"}, 1000);
+        $("#confirm").animate({color:"transparent"}, 500);
+        $("#comprar").animate({width:"200px", borderRadius:"50px"}, 1000);
+        $("#comprar").animate({height:"50px",width:"50px", borderRadius:"25px"}, 500);
+    }
+</script>
 </html>

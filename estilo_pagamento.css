@@ -443,18 +443,18 @@ a
 {
     background: rgba(32, 126, 133, 0.709);
     width: 25%;
-    height: 50vh;
+    height: 65vh;
     border-color: rgba(253, 255, 255, 0.697);
     border-style: solid;
     border-radius: 20px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-content: center;
     align-items: center;
     justify-content: center;
     justify-items: center;
     animation: fadeInLeft 2s forwards;
-    margin-top: 12vh;
+    margin-top: 10vh;
 }
 .certo
     {
@@ -529,10 +529,10 @@ a
 }
 .preco
 {
-    width: 285px;
+    width: 320px;
     height: 70px;
     margin-left: -13px;
-    margin-top: 15px;
+    margin-top: 52px;
     background-color: rgba(0, 0, 0, 0.562);
     display: flex;
     justify-content: space-around;
@@ -544,6 +544,16 @@ a
     position: absolute;
     bottom: 0px;
 }
+.confirmaPAG
+{
+    width: 40%;
+    height: 10vh;
+    background-color: aqua;
+    font-family: "Audiowide", sans-serif;
+    cursor: pointer;
+}
 
+  
+ 
 
 
