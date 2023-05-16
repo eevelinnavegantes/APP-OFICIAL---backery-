@@ -149,7 +149,13 @@
                     <b>R$15,00</b>
                 </div>
                 <div class="btt">
-                    <button id="comprar" onclick="Comprar();" class="confirmaPAG"><b><span id="confirm">CONFIRMAR</span></b></button>
+                    <button id="comprar" onclick="Comprar();" class="confirmaPAG">
+                        <b><span
+                    id="confirm">CONFIRMAR
+                </span></b>
+
+                  <img class="img_ok" id="img_ok" src="correto.png">
+                    </button>
                 </div>
                 
             </div>
@@ -161,9 +167,19 @@
     {
         $("#comprar").animate({height:"20px"}, 1000);
         $("#confirm").animate({opacity:"0"}, 500);
-        $("#comprar").animate({width:"280px", borderRadius:"50px"}, 1000);
+        $("#comprar").animate({width:"280px", borderRadius:"50px"}, 1000, Imagem);
         $("#comprar").animate({height:"60px",width:"60px", borderRadius:"30px"}, 700);
-        $("#comprar").animate({imgSrc:"correto.png", width:"60px"}, 700);
+        comprar.style.backgroundSize="100%"
+        comprar.style.borderColor="white"
     }
+    function Imagem()
+    {
+        $("#img_ok").animate({opacity:"1"}, 1000, Sair);
+    }
+    function Sair()
+    {
+        window.open("pedidoefetuado.html","_self");
+    }
+    
 </script>
 </html>

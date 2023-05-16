@@ -554,6 +554,7 @@ a
     border-color: rgb(21, 71, 64);
     font-family: "Audiowide", sans-serif;
     cursor: pointer;
+    position: relative;
 }
 .btt
 {
@@ -565,6 +566,17 @@ a
     align-items: center;
     justify-content: center;
     justify-items: center; 
+}
+.img_ok
+{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    opacity: 0;
+    width:54px; 
+    margin-left:1px;
+    margin-top:1px;
+    
 }
 
   
