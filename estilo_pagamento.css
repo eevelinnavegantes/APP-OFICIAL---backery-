@@ -374,9 +374,9 @@ a
 .pagtitulo
 {
     margin-top: 10vh;
-    margin-left: 105px;
+    margin-left: 91px;
     background-color: rgba(57, 143, 140, 0.906);
-    width: 18%;
+    width: 20%;
     height: 6vh;
     display: flex;
     align-content: center;
@@ -384,7 +384,7 @@ a
     justify-content: space-around;
     justify-items: center;
     font-size: 15px;
-    animation: backInLeft 3s;
+    animation: backInLeft 2s;
     color: rgb(255, 255, 255);
     border-color: rgba(253, 255, 255, 0.697);
     border-style: solid;
@@ -529,10 +529,10 @@ a
 }
 .preco
 {
-    width: 320px;
-    height: 70px;
+    width: 287px;
+    height: 51px;
     margin-left: -13px;
-    margin-top: 52px;
+    margin-top: 56px;
     background-color: rgba(0, 0, 0, 0.562);
     display: flex;
     justify-content: space-around;
@@ -546,11 +546,25 @@ a
 }
 .confirmaPAG
 {
-    width: 40%;
-    height: 10vh;
-    background-color: aqua;
+    width: 60%;
+    height: 5vh;
+    background-color: #97f3ace4;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(21, 71, 64);
     font-family: "Audiowide", sans-serif;
     cursor: pointer;
+}
+.btt
+{
+    width: 90%;
+    height: 9vh;
+    background-color:transparent;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center; 
 }
 
   
