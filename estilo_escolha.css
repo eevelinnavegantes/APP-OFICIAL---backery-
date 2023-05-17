@@ -234,7 +234,6 @@ body
     display: flex;
     align-content: center;
     align-items: center;
-
 }
 .imagemcoxinha
 {
@@ -264,8 +263,6 @@ body
     flex-direction: column;
     margin-left: 0px;
     color: black;
-    
-
 }
 
 .DES1
@@ -476,6 +473,7 @@ a
     align-items: center; 
     flex-direction: column;
     display: flex;
+    animation: zoomIn 2s;
 }
 .produtostrans
 {
@@ -539,6 +537,12 @@ a
 {
     width: 99%;
     height: 60vh;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center; 
+    display: flex;
+    flex-direction: row;
 }
 .lembrete
 {
@@ -563,12 +567,31 @@ a
     align-content: center;
     align-items: center; 
     display: flex;
-    margin-left: 20px;
+    margin-left: 12px;
 }
 .alerta
 {
     width: 9%;
     height: 5vh; 
     font-size: 25px;
-    margin-left: 8px;
+    margin-left: 12px;
+    margin-top: 4px;
 }
+.qntdd
+{
+    width: 40%;
+    height: 50vh;
+    margin-left: 20px;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center; 
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+.numero
+{
+  
+}
+

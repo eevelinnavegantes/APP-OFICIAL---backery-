@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina escolha</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="estilo_escolha.css">
     <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Freehand&family=Pinyon+Script&display=swap" rel="stylesheet">
@@ -86,6 +87,14 @@
                                         </div>
                                     </div>
                             </fieldset>
+                            <div class="qntdd">
+                                <b>QUANTIDADES</b>
+                                <fieldset class="quantidades">
+                                    <button onclick="Subtrair();" class="menos"> <b>-</b> </button>
+                                    <input class="numero" value="1" id="numero" type="number">
+                                    <button onclick="Adicionar();" class="mais"><b>+</b></button>
+                                </fieldset>
+                            </div>
                         </div>
                             
                     </div>
@@ -101,4 +110,17 @@
         </div>
     
 </body>
+<script>
+    function Adicionar()
+    {
+        numero.value=parseInt(numero.value)+1 
+    }
+    function Subtrair()
+    {
+        if(numero.value >1)
+        {
+            numero.value=parseInt(numero.value)-1
+        }
+    }
+</script>
 </html>
