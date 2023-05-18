@@ -533,6 +533,10 @@ a
     width: 40%;
     height: 50vh;  
 }
+.fieldquantidades
+{
+    border-color: transparent;
+}
 .selecionar
 {
     width: 99%;
@@ -592,6 +596,25 @@ a
 }
 .numero
 {
-  
+  width:200px;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgb(20, 94, 86);
+  text-align: center;
+}
+.menos
+{
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(20, 94, 86);
+}
+.mais
+{
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(20, 94, 86, 0.7);
 }
 
