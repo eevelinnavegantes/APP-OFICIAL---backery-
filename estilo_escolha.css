@@ -7,17 +7,12 @@ body
     padding: 0%;
     width: 99%;
     height: 99vh;
-}
-.principal
-{
-    width: 100%;
-    height: 99vh;
-    display: flex;
     flex-direction: column;
     justify-content: center;
     justify-items: center;
     align-items: center;
     align-content: center;
+    display: flex;
 }
 .D1
 {
@@ -175,7 +170,7 @@ body
 .D12
 {
     width: 110%;
-    height: 82px;
+    height: 10vh;
     background-color: rgb(44, 119, 119);
     display: flex;
     flex-direction: row;
@@ -183,8 +178,6 @@ body
     align-items: center;
     align-content: center;
     justify-items: center;
-    border-radius: 9px;
-    margin-top:-50px;
 }
 
 .D3:hover
@@ -234,11 +227,6 @@ body
     display: flex;
     align-content: center;
     align-items: center;
-}
-.imagemcoxinha
-{
-   width: 90%;
-   height: 40vh;
 }
 .DES
 {
@@ -311,126 +299,6 @@ a
     background-color: black;
 
 }
-.propaganda
-{
-    height: 400px;
-    width: 100%;
-    display: flex;
-    flex-direction:row;
-    /*background-color: white;*/
-    margin-left: 0px;
-}
-.linha1
-{
-    height: 300px;
-    width: 20%;
-    display: flex;
-    flex-direction:column;
-    /*background-color: red;*/
-    margin-left: 30px;
-    justify-content: space-around;
-    justify-items: center;
-    align-content: center;
-    align-items: center; 
-}
-.fora
-{
-    font-family: 'Cookie';font-size: 22px;
-    width: 10px;
-    height: 10px;
-}
-.emoji
-{
-    width: 300px;
-   height: 60px;
-   /*background-color: rgb(38, 101, 103);*/
-   display: flex;
-   border-radius: 20px;
-   justify-content: center;
-    justify-items: center;
-    align-content: center;
-    align-items: center; 
-    flex-direction: row;
-}
-.linha2
-{
-    height: 300px;
-    width: 30%;
-    display: flex;
-    flex-direction:row;
-    /*background-color: yellow;*/
-    margin-left: 40px;
-    justify-items: center;
-    align-content: center;
-    align-items: center; 
-}
-.infocoxinha
-{
-    height: 300px;
-    width: 350px;
-    display: flex;
-    flex-direction:column;
-    /*background-color: red;*/
-    justify-content: center;
-    justify-items: center;
-    align-content: center;
-    align-items: center; 
-}
-.precocoxinha
-{
-    width: 180px;
-    height: 40px;
-    background-color: rgb(38, 101, 103);
-    display: flex;
-    border-radius: 20px;
-    justify-content: space-around;
-    justify-items: center;
-    align-content: center;
-    align-items: center; 
-    flex-direction: column;
-    margin-left: 0px;
-    color:white
-}.linha3
-{
-    height: 320px;
-    width: 40%;
-    display: flex;
-    flex-direction:row;
-    /*background-color: yellow;/*/
-    margin-left: 70px;
-    justify-items: center;
-    align-content: center;
-    align-items: center; 
-}
-.infotorta
-{
-    height: 300px;
-    width: 400px;
-    display: flex;
-    flex-direction:column;
-    /*background-color: red;*/
-    justify-content: center;
-    justify-items: center;
-    align-content: center;
-    align-items: center; 
-    margin-left: -70px;
-    top:50px;
-}
-.precotorta
-{
-    width: 180px;
-    height: 40px;
-    background-color: rgb(38, 101, 103);
-    display: flex;
-    border-radius: 20px;
-    justify-content: space-around;
-    justify-items: center;
-    align-content: center;
-    align-items: center; 
-    flex-direction: column;
-    margin-left: 0px;
-    color:white
-}
 .logo
 {
     width: 4%;
@@ -439,34 +307,23 @@ a
     top:3px;
     left:20px;
 }
-
-.logoescrita
+.principal
 {
-    font-family: 'Pinyon Script', cursive;
-    font-size: 98px;
-    width: 1500px;
-    height: 70px;
-    top: 10px;
-    left: 100px;
-    margin-left: 1290px;
+    width: 100%;
+    height: 80vh;
+    margin-top: 10px;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
 }
 .produtosverde
 {
-    width: 85%;
+   background: rgba(245, 247, 248, 0.793);
+    width: 25%;
     height: 75vh;
-    margin-top: 30px;
-    justify-content: center;
-    justify-items: center;
-    align-content: center;
-    align-items: center; 
-    flex-direction: row;
-    display: flex;
-}
-.produtosbranco
-{
-    background-color: rgba(255, 255, 255, 0.855);
-    width: 99%;
-    height: 73vh;
     justify-content: center;
     justify-items: center;
     align-content: center;
@@ -474,18 +331,40 @@ a
     flex-direction: column;
     display: flex;
     animation: zoomIn 2s;
+    border-color: rgb(201, 201, 201);
+    border-style: solid;
+    border-radius: 20px;
 }
-.produtostrans
+.produtosverde2
 {
-    width: 96%;
-    height: 67vh;
+    height: 20vh;
+    width: 90%;
+    background-color: rgba(16, 64, 58, 0.7);
+    border-color: rgb(201, 201, 201);
+    border-style: solid;
+    border-radius: 2px;
+    justify-content: space-around;
+    justify-items: center;
+    align-content: center;
+    align-items: center; 
+    flex-direction: row;
+    display: flex;
+    
+}
+.produtosvermelho
+{
+    background-color: rgba(176, 64, 64, 0.855);
+    width:60%;
+    height:75vh;
     justify-content: center;
     justify-items: center;
     align-content: center;
     align-items: center; 
     flex-direction: row;
     display: flex;
+    animation: zoomIn 2s;
 }
+
 .traco
 {
     background-color: rgb(0, 0, 0);
@@ -502,6 +381,10 @@ a
 {
     margin-left: -900px;
 }
+.coxinha
+{
+    margin-top: -100px;
+}
 .descricao
 {
     width: 80%;
@@ -515,14 +398,48 @@ a
 }
 .des1
 {
-    width: 80%;
-    height: 10vh;
+    width: 30%;
+    height: 5vh;
+    font-size: 15px;
+    margin-left: 800px;
+    z-index: 10;
     justify-content: center;
     justify-items: center;
     align-content: center;
     align-items: center; 
     display: flex;
-    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.7);
+    animation: backInLeft 2s;
+    color: rgb(0, 0, 0);
+    border-color: rgba(227, 227, 227, 0.871);
+    border-style: solid;
+    border-radius: 20px;
+}
+.scr
+{
+    width: 100%;
+    height: 82vh;
+    margin-top: 40px;
+}
+.ok
+{
+    width: 8%;
+    height: 4vh;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left:970px;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center; 
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.7);
+    animation: backInLeft 2s;
+    color: rgb(45, 192, 37);
+    border-color: rgba(227, 227, 227, 0.871);
+    border-style: solid;
+    border-radius: 20px;
+    font-family: "Audiowide", sans-serif;
 }
 .fieldcomidas
 {
@@ -536,17 +453,6 @@ a
 .fieldquantidades
 {
     border-color: transparent;
-}
-.selecionar
-{
-    width: 99%;
-    height: 60vh;
-    justify-content: center;
-    justify-items: center;
-    align-content: center;
-    align-items: center; 
-    display: flex;
-    flex-direction: row;
 }
 .lembrete
 {
