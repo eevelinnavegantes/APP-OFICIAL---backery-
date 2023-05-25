@@ -63,14 +63,13 @@
 
 <div class="scr">
         <div class="des1"><b>ESCOLHA CONFORME SUAS RESTRIÇÕES 🧁</b></div>
-        <button class="ok"><b>CONFIRMAR</b></button>
         
         <div class="principal">
                 <div class="produtosverde">
-                        <img class="coxinha" src="imgcoxinha.png" width="300px">
+                        <img class="coxinha" src="lupacoxinha3.png" width="200px">
                         <div class="produtosverde2">
-                            <img src="lupacoxinha4.png" width="30%" height="100vh">
-                            <img src="lupacoxinha3.png" width="30%" height="100vh">
+                            <img src="lupacoxinha4.png" class="bordinha" width="40%" height="90vh">
+                            <img src="lupacoxinha3.png" class="bordinha" width="30%" height="100vh">
                         </div>
                 </div>
                 <div class="produtosvermelho">
@@ -91,12 +90,21 @@
                                     </div>
                             </fieldset>
                             <div class="qntdd">
-                                <b>QUANTIDADES</b><br>
+                                <b>QUANTIDADES</b>
                                 <fieldset class="fieldquantidades">
-                                    <button onclick="Subtrair();" class="menos"> <b>-</b> </button>
+                                    <button onclick="Subtrair();" class="menos"> - </button>
                                     <input class="numero" value="1" id="numero" type="number">
-                                    <button onclick="Adicionar();" class="mais"><b>+</b></button>
+                                    <button onclick="Adicionar();" class="mais">+</button>
                                 </fieldset>
+                                <div class="observacao">
+                                    <b>ALGUMA OBSERVAÇÃO?</b><br>
+                                    <fieldset class="obs">
+                                        <input class="obss" type="text">
+                                    </fieldset>
+                                    <a href="paginapagamento.html">
+                                    <button class="ok"><b>CONFIRMAR PEDIDO</b></button></a> 
+                                    
+                                </div>
                             </div>
                         
                             
