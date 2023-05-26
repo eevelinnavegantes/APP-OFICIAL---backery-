@@ -321,13 +321,13 @@ a
 }
 .produtosverde
 {
-    background: rgba(245, 247, 248, 0.711);
+    background-color: rgba(255, 255, 255, 0.7);
     border-color: rgb(25, 99, 99);
     width: 25%;
-    height: 50vh;
-    margin-top: -15px;
+    height: 65vh;
+    margin-top: -5px;
     border-radius: 15px;
-    justify-content: center;
+    justify-content: space-around;
     justify-items: center;
     align-content: center;
     align-items: center; 
@@ -336,7 +336,7 @@ a
 }
 .produtosverde2
 {
-    height: 20vh;
+    height: 30vh;
     width: 90%;
     justify-content: space-around;
     justify-items: center;
@@ -344,12 +344,6 @@ a
     align-items: center; 
     flex-direction: row;
     display: flex;   
-}
-.bordinha
-{
-    border-color: rgba(223, 227, 227, 0.801);
-    border-style: solid;
-    border-radius: 20px;
 }
 .produtosvermelho
 {
@@ -568,4 +562,35 @@ a
     border-color: rgb(20, 94, 86, 0.7);
     font-size: 20px;
 }
+.bordinha
+{
+    border-style: solid;
+    border-color: rgba(230, 230, 230, 0.718);
+    border-radius: 10px;
+    cursor: pointer;;
+}
 
+.img-zoom
+{
+    margin-top: 10px;
+    width: 80%;
+    height: 40vh;
+    overflow: hidden;
+    border-style: solid;
+    border-color: rgba(230, 230, 230, 0.718);
+    border-radius: 10px;
+ }
+ 
+ .img-zoom img
+ {
+    width: 100%;
+    height: 100%;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+ }
+ 
+ .img-zoom:hover img
+ {
+    -webkit-transform: scale(1.9);
+    transform: scale(1.9);
+ }
