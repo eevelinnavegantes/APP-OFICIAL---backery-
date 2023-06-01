@@ -336,10 +336,10 @@ a
     background-color: rgba(0, 0, 0, 0.562);
     display: flex;
     justify-content: space-around;
-     justify-items: flex-end;
-     align-content: center;
-     align-items: center; 
-     flex-direction: column;
+    justify-items: flex-end;
+    align-content: center;
+    align-items: center; 
+    flex-direction: column;
     color:white;
     position: absolute;
     bottom: 0px;
@@ -484,7 +484,7 @@ a
     border-style: solid;
     border-radius: 20px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-content: center;
     align-items: center;
     justify-content: space-evenly;
@@ -586,6 +586,13 @@ a
     width:54px; 
     margin-left:1px;
     margin-top:1px;  
+}
+.texto
+{
+    background-color: black;
+    width: 90%;
+    height: 5vh;
+    display: none;
 }
 
   

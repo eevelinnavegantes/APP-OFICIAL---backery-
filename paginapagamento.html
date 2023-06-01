@@ -113,22 +113,25 @@
                  <b> FORMA DE PAGAMENTO: </b>
                 
              <button  id="abrir1" onclick="Abra1();" class="cartao">
-                    <img src="cartaocredito.png" width="10%">
                 <div class="cartao2"> 
+                    <img src="cartaocredito.png" width="10%">
                         <b>CARTÃO DE CRÉDITO  ></b> 
                 </div>
+                <div id="A1" class="texto"> EVE</div>
             </button>
 
             <button id="abrir2" onclick="Abra2();" class="boleto">
-                    <img src="boleto.png" width="10%">
                     <div class="boleto2"> 
+                        <img src="boleto.png" width="10%">
                         <b>BOLETO BANCÁRIO   ></b> 
                     </div>
+                <div id="A2" class="texto"> EVE2</div>
             </button>
             <button id="abrir3" onclick="Abra3();" class="pix">
-                <img src="pix.png" width="10%">
                     <div class="pix2"> 
+                        <img src="pix.png" width="10%">
                         <b>GERAR CÓDIGO PIX   ></b> 
+                <div id="A2" class="texto"> EVE</div>
              </div>
             </button>
             </div>
@@ -180,6 +183,7 @@
         $("#abrir1").animate({height:"60%"}, 1000);
         $("#abrir2").animate({height:"10%"}, 1000);
         $("#abrir3").animate({height:"10%"}, 1000);
+        
     }
     function Abra2()
     {
