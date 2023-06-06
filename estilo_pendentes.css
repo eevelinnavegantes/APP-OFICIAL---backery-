@@ -17,20 +17,6 @@ body
     background-color: black;
     border-radius: 10px;
 }
-.ME
-{
- font-size: 15px;
- border: none;
- background-color: transparent;
- color: white;
- font-family: "Audiowide", sans-serif;
- cursor: pointer;
-}
-.ME:hover
-{
-    background-color: rgb(15, 69, 69) ;
-    border-radius: 5px;
-}
 .prin
 {
     width: 100%;
@@ -81,4 +67,32 @@ td
 table, th, td 
 {
     border: 1px solid;
+}
+.excluir
+{
+    height: 3vh;
+    font-family: cursive;
+    background-color: rgb(255, 255, 255);
+    color: rgb(21, 78, 84); 
+    border-radius: 5px;
+    font-size: 10px;
+}
+.botao
+{
+ font-size: 18px;
+ border: none;
+ background-color: transparent;
+ color: white;
+ font-family: "Audiowide", sans-serif;
+ cursor: pointer;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+.botao:hover
+{
+    background-color: rgb(15, 69, 69) ;
+    border-radius: 5px;
 }
