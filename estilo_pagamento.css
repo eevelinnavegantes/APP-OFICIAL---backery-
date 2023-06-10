@@ -502,10 +502,10 @@ a
     border-style: solid;
     border-radius: 20px;
     display: flex;
-    flex-direction: row;
+    flex-direction:column;
     align-content: center;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     justify-items: center;
     cursor: pointer;
     font-family: "Audiowide", sans-serif;
@@ -519,10 +519,10 @@ a
     border-style: solid;
     border-radius: 20px;
     display: flex;
-    flex-direction: row;
+    flex-direction:column;
     align-content: center;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     justify-items: center;
     cursor: pointer;
     font-family: "Audiowide", sans-serif;
@@ -587,12 +587,38 @@ a
     margin-left:1px;
     margin-top:1px;  
 }
-.texto
+.texto2
 {
-    background-color: black;
-    width: 90%;
-    height: 5vh;
-    display: none;
+    background-color: rgba(244, 244, 244, 0.703);
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center; 
+}
+.fild2
+{
+    width: 250px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-content: center;
+    align-items: center; 
+    flex-direction: column;
+    border-style: solid;
+    border-color: transparent;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 75px;
+}
+.caixa
+{
+   width: 350px; 
+   height: 60%;
 }
 
   
